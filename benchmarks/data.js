@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785174725469,
-  "repoUrl": "https://github.com/textlint/textlint",
+  "lastUpdate": 1785281455083,
+  "repoUrl": "https://github.com/lizy168/textlint",
   "entries": {
     "Benchmark": [
       {
@@ -116130,6 +116130,48 @@ window.BENCHMARK_DATA = {
             "value": 0.6711584273600001,
             "range": "± 0.010852624000000088",
             "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "180875538@qq.com",
+            "name": "lizy168",
+            "username": "lizy168"
+          },
+          "committer": {
+            "email": "180875538@qq.com",
+            "name": "lizy168",
+            "username": "lizy168"
+          },
+          "distinct": true,
+          "id": "2fda9a84ba2e45b0832f9fcd3ca00d26d3611e33",
+          "message": "[bfp-replay] 9fc06dc5174e buggy",
+          "timestamp": "2026-07-28T18:54:05+08:00",
+          "tree_id": "922ce1273b6e86490c34e6591a3d6e815f235650",
+          "url": "https://github.com/lizy168/textlint/commit/2fda9a84ba2e45b0832f9fcd3ca00d26d3611e33"
+        },
+        "date": 1785281443599,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 3.3108503144000005,
+            "unit": "seconds",
+            "range": "± 0.09046837200000013"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 6.991428857000001,
+            "unit": "seconds",
+            "range": "± 0.1613147829999999"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.7618159656000001,
+            "unit": "seconds",
+            "range": "± 0.02041230999999999"
           }
         ]
       }
